@@ -864,6 +864,13 @@ padding-bottom: 2em;
 	text-indent: 100%;
 	background: url("../images/to-top2.png") no-repeat 0px 0px;
 }
+#fixedbutton {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	border-radius: 50%;
+	width: 100px;
+}
 
        /*-- responsive-mediaquries --*/
 		@media(max-width:1080px){
