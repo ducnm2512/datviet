@@ -628,6 +628,7 @@ h2.resp-accordion {
 .about-header {
 	text-align: center;
 }
+
 .about-header h3 {
 	font-size: 2.5em;
 	font-family: 'Arvo', serif;
@@ -649,8 +650,7 @@ h2.resp-accordion {
 	border-radius: 103px;
 }
 .about-text {
-	float: left;
-	width: 65%;
+	width: 100%;
 	margin-top:3%;
 }
 .about-text p {
@@ -1140,6 +1140,7 @@ padding-bottom: 2em;
 	width: 25%;
 	height: 150px;
 }
+
      @media(max-width:640px){
      	.header-top {
 			padding-top: 2.5em;
