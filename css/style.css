@@ -37,7 +37,7 @@ body{
 
 }
 .header{
-	background: url("../images/banner.jpg") no-repeat center top;
+	background: url("../images/banner4.jpg") no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -161,7 +161,7 @@ nav a:focus {
 }
 .banner_center h2 span
 {
-	color: #ef664d;
+	color: white;
 	font-weight: 900;
 }
 .wmuSliderPagination {
@@ -631,6 +631,10 @@ h2.resp-accordion {
 .about-header {
 	text-align: center;
 }
+.about-header p {
+	text-align: center;
+	font-size: 17px;
+}
 
 .about-header h3 {
 	font-size: 2.5em;
@@ -657,6 +661,7 @@ h2.resp-accordion {
 	margin-top:3%;
 }
 .about-text p {
+	text-align: center;
 	font-size: 15px;
 	color: #7e7e7e;
 	line-height: 1.5em;
@@ -666,6 +671,10 @@ h2.resp-accordion {
 }
 .polls {
 	padding: 10px 0;
+}
+.polls h5{
+	margin-top: 10px;
+	font-size: 15px;
 }
 .poll-desc {
 	float: left;
@@ -1039,7 +1048,6 @@ padding-bottom: 2em;
 				width: 80%;
 			}
 			.about-text p {
-				height: 65px;
 				overflow: hidden;
 			}
 			.about-sectiongrids {
@@ -1211,7 +1219,7 @@ padding-bottom: 2em;
 			top: -30px;
 		}
 		.about-text p {
-			height: 46px;
+			text-align: center;
 			overflow: hidden;
 		}
 		.about-header h3 {
